@@ -29,15 +29,7 @@ Feature Importance Visualization: Understand the key factors driving pollution c
 SHAP Analysis: Gain insights into how the model interprets different environmental variables
 Correlation Heatmap: Examine relationships between pollutants and meteorological conditions
 🧪 Model Selection & Performance
-After evaluating multiple classification algorithms, LightGBM was selected for its superior performance:
-
-Model	Test Accuracy	Precision	Recall	F1	AUC
-Logistic Regression	0.818	0.815	0.818	0.816	0.934
-LightGBM	0.866	0.866	0.866	0.866	0.966
-KNN	0.837	0.835	0.837	0.836	0.944
-Random Forest	0.853	0.850	0.853	0.851	0.958
-AdaBoost	0.789	0.780	0.789	0.781	0.915
-CatBoost	0.850	0.848	0.850	0.849	0.957
+After evaluating multiple classification algorithms, LightGBM was selected for its superior performance.
 
 📊 Key Findings
 Geographic Disparities: Urban areas experience approximately 25% higher pollution levels compared to rural regions
