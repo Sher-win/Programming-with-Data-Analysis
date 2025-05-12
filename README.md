@@ -1,3 +1,5 @@
+Note: This app is hosted on a free-tier streamlit service that may go to sleep after periods of inactivity. If you encounter a loading delay, please be patient – the app is just waking up! It will be fully responsive after the initial load.
+
 # Programming-with-Data-Analysis
 
 Beijing Air Pollution Level Classifier
@@ -38,21 +40,6 @@ Pollution Distribution: Nearly equal distribution between high (37.2%) and low (
 Inverse Seasonal Relationships: While primary pollutants (SO₂, NO₂, CO) peak in winter, ozone (O₃) reaches maximum levels in summer
 Influential Factors: PM10 concentration, temperature-dew point difference, and SO₂ levels were identified as the strongest predictors of pollution levels
 
-📚 Project Structure
-
-beijing-air-pollution-classifier/
-├── weather_app.py                # Main Streamlit application
-├── Data_Analytics_Project.ipynb  # Jupyter notebook with analysis & modeling
-├── Models/                       # Trained models
-│   ├── LightGBM.pkl             # LightGBM model
-│   └── StandardScalar.pkl       # Feature scaler
-├── Visualizations/               # Generated visualizations
-│   ├── data_distribution_overview.png
-│   ├── pm25_level_distribution.png
-│   ├── seasonal_pm25_by_area.png
-│   └── ...
-├── requirements.txt              # Project dependencies
-└── README.md                     # Project documentation
 
 🧠 Technical Approach
 Data Preprocessing: Log transformations applied to highly skewed variables; categorical encoding for stations and wind directions
